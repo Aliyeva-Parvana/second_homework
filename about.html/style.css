@@ -1,0 +1,129 @@
+.container {
+    width: 100%;
+    height: 90px;
+    background-color: #fff;
+}
+
+.container header h1 {
+    background-color: #4aaaa5;
+    float: left;
+    width: 250px;
+    height: 90px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: 700px;
+    line-height: 90px;
+    color: #fff;
+    text-align: center;
+    margin-left: 20%;
+}
+
+.container .menyu {
+    position: relative;
+    float: left;
+    margin: 15px;
+    margin-left: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 500px;
+    line-height: 50px;
+    left: 673px;
+}
+.container #line::after{
+content: "|";
+color: #666;
+font-size:18px ;
+margin-left: 15px;
+}
+.about_me{
+    float: left;
+    width: 40%;
+    padding: 80px;
+    margin-left: 385px;
+    margin-top: 20px;
+    margin-bottom:20px ;
+    background: #fff;
+    border: 1px solid #ddd;
+    
+}
+.about_me h2{
+    padding-bottom: 20px;
+    font-size: 30px;
+    line-height: 49px;
+    border-bottom: 3px solid #ddd;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-weight: 700;
+    color: #4aaaa5;
+}
+
+
+.container aside {
+    float: left;
+    width: 15%;
+    padding: 30px;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+
+.container
+aside {
+    background: #fff;
+    border: 1px solid #ddd;
+    margin-top: 20px;
+}
+aside h2{
+    font-size: 20px;
+    border-bottom: 3px solid #ddd;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-weight: 700;
+    color: #4aaaa5;
+    padding-bottom: 20px;
+    line-height: 30px;
+    border-bottom: 3px solid #ddd
+}
+.container  img{
+    position: relative;
+    float: left;
+    width: 250px;
+    margin: 15px ;
+    margin-left: 0px;
+    margin-top: 40px;
+}
+.about_me{
+    margin-bottom: 180px;
+}
+.about_me .lorem1{
+margin-top: 40px;
+
+}
+.about_me .lorem2{
+    float: left;
+    margin-top: 20px;
+    
+}
+.about_me .lorem1,.lorem2{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.container aside img{
+    float: left;
+    width: 60px;
+    margin: 5px;
+    margin-top: 20px;
+    
+}
+
+
+.container footer{
+    clear: both;
+    text-align: center;
+    color: #ccc;
+    background-color:#666;
+    font-size: 18px;
+    padding: 30px 0;
+    margin: 10px 0;
+    border-top: 8px solid #4aaaa5;
+   
+
+}
